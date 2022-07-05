@@ -2,6 +2,11 @@
     margin: 0px;
     padding:0px;
 }
+body{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
 .Header_area{
     background-image: url("/images/glowing-neon-line-donation-and-footage-156440565_iconm.webp");
     background-size: cover;
