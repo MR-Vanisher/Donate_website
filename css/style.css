@@ -8,7 +8,7 @@ body{
     font-family: 'Prompt', sans-serif;
 }
 .Header_area{
-    background-image: url("/images/final_img.jpg");
+    background-image: url("images/final_img.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
     height: 100vh;
@@ -18,7 +18,7 @@ body{
 .slogan{
     font-size: 40px;
     font-weight: bold;
-    color:white;
+    color:#793979; 
     margin-top: 150px;
 }
 .about-slogan{
@@ -107,6 +107,45 @@ body{
     padding-top: 20px;
     font-size: 20px;
 }
+.donate-plan-text-area{
+   text-align: center;
+   margin-top: 40px;
+}
+.donation_plan_heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donation-plan_text{
+    font-size: 15px;
+    font-weight: bold;
+}
+ .plan_items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+ .donation_items{
+    width: 30%;
+    height:300px;
+}
+.items_icon-one img{
+    width: 150px;
+    height: 125px;
+}
+.all_item_heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.item_two_icons img{
+    width: 150px;
+    height: 125px; 
+}
+.items_three_icon img{
+    width: 150px;
+    height: 125px;
+}
+
+
 
 
 
