@@ -7,8 +7,13 @@ body{
     font-family: 'Prompt', sans-serif;
 }
 /*Menu starts here*/
+.full_container{
+    background-image: url("images/total_help_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .Menu_container{
-    background-color: black;
+   /* background-color: black;*/
     color:white;
     display: flex;
     justify-content: space-evenly;
@@ -18,6 +23,7 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
+    color:black;
 }
 .conatainer_heading img{
     width: 50px;
@@ -49,19 +55,19 @@ body{
 /*End menu*/
 
 .container{
-   background-color: black;
+  /* background-color: black;*/
     height: 85vh;
 }
 .slogan{
     font-weight: bold;
     font-size: 40px;
-    color: white;
+    color:dodgerblue;
     margin-bottom: 20px;
-    padding-top: 10%;
+    padding-top: 15%;
     text-align: center;
 }
 .slogan_description{
-    color:burlywood;
+    color:#f01717;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
