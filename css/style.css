@@ -1,15 +1,53 @@
 *{
-    margin: 0px;
-    padding:0px;
+margin: 0px; padding:0px;
 }
 body{
     font-family: 'Arimo', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Prompt', sans-serif;
 }
+.Menu_container{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conatainer_heading{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.conatainer_heading img{
+    width: 50px;
+    height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu_items{
+    padding:20px 40px;
+    display: flex;
+    justify-content: end;
+    margin-left:20px;
+}
+.menu_items li{
+    margin-right: 20px;
+    font-size: 20px;
+    padding:20px;
+    transition: 0.3s ease-out;
+    background-color: red;
+    border-radius: 10px;
+}
+.menu_items li:hover{
+    color:#e2d932;
+    transition: 0.3s ease-out;
+    background-color: dimgrey;
+    cursor:pointer;
+}
 .container{
    background-color: black;
-    height: 90vh;
+    height: 85vh;
 }
 .slogan{
     font-weight: bold;
@@ -126,6 +164,9 @@ body{
     width: 30%;
     height:300px;
 }
+.item_one_text{
+    text-align: justify;
+}
 .items_icon-one img{
     width: 150px;
     height: 125px;
@@ -133,6 +174,9 @@ body{
 .all_item_heading{
     font-size: 30px;
     font-weight: bold;
+}
+.items-two-text{
+    text-align: justify;
 }
 .item_two_icons img{
     width: 150px;
@@ -145,6 +189,80 @@ body{
 .item_description{
     font-size: 20px;
 }
+.reveiw_text_area{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.reveiw_text_area h1{
+    color:#f23a16;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.reveiw_text_area h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.presons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.person_one{
+    width: 30%;
+}
+.person_one_img img{
+    width: 200px;
+    height: 250px;
+    padding-right: 10px;
+}
+.person_one_details{
+    display:flex;
+    justify-content:start;
+}
+.person_one_opinion{
+    text-align: justify;
+    font-size: 15px;
+}
+.person_two{
+    width:30%
+}
+.person_two_img img{
+    width: 200px;
+    height: 250px;
+    padding-right: 10px;
+}
+.person_two_details{
+    display: flex;
+    justify-content: start;
+}
+.person_two_opinion{
+    text-align: justify;
+    font-size: 15px;
+}
+.person_three{
+    width:30% 
+}
+.person_three_img img{
+    width: 200px;
+    height: 250px;
+    padding-right: 10px;
+}
+.person-three_details{
+    display: flex;
+    justify-content: start; 
+}
+.person_three_opinion{
+    text-align: justify;
+    font-size: 15px; 
+}
+
+
+
+
+
+
+
 .update_area_text{
     text-align:center;
 }
