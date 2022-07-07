@@ -61,7 +61,7 @@ body{
     color:burlywood;
     font-weight: bold;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 .donation_btn{
     text-align: center;
@@ -256,13 +256,6 @@ body{
     text-align: justify;
     font-size: 15px; 
 }
-
-
-
-
-
-
-
 .update_area_text{
     text-align:center;
 }
