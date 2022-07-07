@@ -8,7 +8,7 @@ body{
 }
 /*Menu starts here*/
 .full_container{
-    background-image: url("/images/total_help_bg.jpg");
+    background-image: url("../images/total_help_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
